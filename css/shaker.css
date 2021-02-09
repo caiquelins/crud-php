@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Shake */
+.shaker{
+	-webkit-animation:shakeIt 0.1s linear 4;
+	-moz-animation:shakeIt 0.1s linear 4;
+	-ms-animation:shakeIt 0.1s linear 4;
+	-o-animation:shakeIt 0.1s linear 4;
+	animation:shakeIt 0.1s linear 4;
+	border-color:#C00;}
+
+@keyframes shakeIt{
+	0%{transform:translateX(-15px);}
+	25%{transform:translateX(15px);}
+	50%{transform:translateX(-15px);}
+	100%{transform:translateX(0px);}
+}
