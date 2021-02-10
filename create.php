@@ -25,7 +25,7 @@
     <div class="container">
       <div class="card mt-5">
         <div class="card-header">
-          <h2>Cadastre uma pessoa</h2>
+          <h2>Cadastre um Usuário</h2>
         </div>
           <div class="card-body">
             <form method="post" action="function/cadastraUsuario.php">
