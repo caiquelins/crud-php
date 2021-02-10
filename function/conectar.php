@@ -3,7 +3,7 @@
 $host = "127.0.0.1";
 $user = "root";
 $pass = "";
-$db = "projeto2";
+$db = "db_crudphp";
 $tbl = "tbl_usuarios";
 
 try {

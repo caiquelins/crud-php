@@ -6,7 +6,7 @@ require_once('function/conectar.php');
 $logado = $_SESSION['email'];
 $email = $logado;
 
-$ins = $conx->prepare('SELECT nome FROM projeto2.tbl_usuarios WHERE email = :email');
+$ins = $conx->prepare('SELECT nome FROM db_crudphp.tbl_usuarios WHERE email = :email');
 $ins->bindParam(':email', $email);
 $ins->execute();
 

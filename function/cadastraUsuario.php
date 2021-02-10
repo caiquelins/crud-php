@@ -23,7 +23,7 @@ $btnCadastro = filter_input(INPUT_POST, 'btn', FILTER_SANITIZE_STRING);
 		$email = filter_input(INPUT_POST,'email',FILTER_SANITIZE_EMAIL);
 		$senha = $_POST["senha"];
 
-		$ins = $conx->prepare('SELECT email FROM projeto2.tbl_usuarios WHERE email = :email');
+		$ins = $conx->prepare('SELECT email FROM db_crudphp.tbl_usuarios WHERE email = :email');
 		$ins->bindParam(':email', $email);
 		$ins->execute();
 

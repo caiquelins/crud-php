@@ -1,18 +1,3 @@
-# CRUD-php
-
-Sistema CRUD feito com a linguagem PHP, estilização do front-end utilizando o framework Bootstrap 4. Desenvolvido sem o padrão de arquitetura MVC.
-
-# Funcionalidades
-
-- Login;
-- Logout;
-- Criação/Edição/Consulta/Deleção (CRUD) de Usuários;
-
-## Instalação
-
-Crie um banco de dados com o nome <b>db_crudphp</b> e utilize o arquivo abaixo (ou baixe o arquivo db_crudphp.sql), para importar a tabela utilizada:
-
-```bash
 -- phpMyAdmin SQL Dump
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
@@ -81,19 +66,3 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-```
-
-## Login
-
-Para logar, basta acessar localhost/CRUD-PHP/index.php
-
-```bash
-
-Utilize os acessos:
-<b>E-mail:</b> admin@admin.com
-<b>Senha:</b> admin
-
-<b>Tela - Login:</b><br>
-<img src="https://raw.githubusercontent.com/caiquelins/crud-php/master/demo/telaLogin.PNG"></img>
-
-```

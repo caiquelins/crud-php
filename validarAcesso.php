@@ -7,7 +7,7 @@
 	$email = $_POST['email'];
 	$senha = $_POST['senha'];
 	
-	$ins = $conx->prepare('SELECT nome, email, senha FROM projeto2.tbl_usuarios WHERE email = :email AND senha = :senha');
+	$ins = $conx->prepare('SELECT nome, email, senha FROM db_crudphp.tbl_usuarios WHERE email = :email AND senha = :senha');
 	$ins->bindParam(':email', $email);
 	$ins->bindParam(':senha', $senha);
 	$ins->execute();
