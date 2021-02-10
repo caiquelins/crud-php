@@ -87,13 +87,10 @@ COMMIT;
 
 Para logar, basta acessar localhost/CRUD-PHP/index.php
 
-```bash
 
-Utilize os acessos:
-<b>E-mail:</b> admin@admin.com
-<b>Senha:</b> admin
+Utilize os acessos:<br>
+**E-mail:** admin@admin.com<br>
+**Senha:**</b> admin<br>
 
-<b>Tela - Login:</b><br>
+**Tela - Login:**<br>
 <img src="https://raw.githubusercontent.com/caiquelins/crud-php/master/demo/telaLogin.PNG"></img>
-
-```
