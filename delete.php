@@ -18,5 +18,5 @@ $idUsuario = $_GET['idUsuario'];
 $sql = 'DELETE FROM tbl_usuarios WHERE idUsuario=:idUsuario';
 $statement = $conx->prepare($sql);
 if ($statement->execute([':idUsuario' => $idUsuario])) {
-  header("location:home.php");
+  header("location:administration.php?sucesso=1");
 }

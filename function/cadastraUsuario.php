@@ -39,7 +39,7 @@ $btnCadastro = filter_input(INPUT_POST, 'btn', FILTER_SANITIZE_STRING);
 			$ins->bindParam(':senha', $senha);
 			$ins->execute();
 
-			header("Location: ../home.php");
+			header("Location: ../home.php?sucesso=1");
 		}
 
 		catch(PDOException $e) {
@@ -47,6 +47,6 @@ $btnCadastro = filter_input(INPUT_POST, 'btn', FILTER_SANITIZE_STRING);
 		}
 	}
 	else {
-		header("Location: ../cadastro.php?erro=1");
+		header("Location: ../home.php?erro=1");
 	}
 ?>
